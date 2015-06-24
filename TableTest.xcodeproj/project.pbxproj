@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E38EE241B3B0B78001E2019 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E38EE231B3B0B78001E2019 /* Section.swift */; };
 		9E9FFBC31B3AFB0E007E5A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9FFBC21B3AFB0E007E5A20 /* AppDelegate.swift */; };
 		9E9FFBC51B3AFB0E007E5A20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9FFBC41B3AFB0E007E5A20 /* ViewController.swift */; };
 		9E9FFBC81B3AFB0E007E5A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9FFBC61B3AFB0E007E5A20 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E38EE231B3B0B78001E2019 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		9E9FFBBD1B3AFB0E007E5A20 /* TableTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9FFBC11B3AFB0E007E5A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E9FFBC21B3AFB0E007E5A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				9E9FFBC21B3AFB0E007E5A20 /* AppDelegate.swift */,
 				9E9FFBC41B3AFB0E007E5A20 /* ViewController.swift */,
+				9E38EE231B3B0B78001E2019 /* Section.swift */,
 				9E9FFBC61B3AFB0E007E5A20 /* Main.storyboard */,
 				9E9FFBC91B3AFB0E007E5A20 /* Images.xcassets */,
 				9E9FFBC01B3AFB0E007E5A20 /* Supporting Files */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E38EE241B3B0B78001E2019 /* Section.swift in Sources */,
 				9E9FFBC51B3AFB0E007E5A20 /* ViewController.swift in Sources */,
 				9E9FFBC31B3AFB0E007E5A20 /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +401,7 @@
 				9E9FFBDE1B3AFB0F007E5A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E9FFBDF1B3AFB0F007E5A20 /* Build configuration list for PBXNativeTarget "TableTestTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				9E9FFBE11B3AFB0F007E5A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,9 +9,11 @@
 import UIKit
 
 enum CellType {
+    case basicCell, detailCell
+}
 
-    case basicCell
-    case detailCell
+enum SectionType {
+    case basicSection
 }
 
 struct Section {
@@ -27,3 +29,20 @@ struct Section {
 }
 
 
+struct TableConstructor {
+    var sections:[SectionType]
+    
+    init (sections:[SectionType]) {
+        self.sections = sections
+    }
+    
+    func getSections() -> [Section] {
+        var sectionsArray:[Section]!
+        for sectionType in sections {
+            let section = Section(type: cellType, numberOfRows: 3)
+            sectionsArray.append(section)
+        }
+    }
+    
+    
+}

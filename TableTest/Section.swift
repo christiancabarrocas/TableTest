@@ -38,8 +38,8 @@ struct TableConstructor {
     
     func getSections() -> [Section] {
         var sectionsArray:[Section]!
-        for sectionType in sections {
-            let section = Section(type: cellType, numberOfRows: 3)
+        for sectionObject in sections {
+            let section = Section(type:sectionObject.cellType, numberOfRows: 3)
             sectionsArray.append(section)
         }
     }
